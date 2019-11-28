@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    padding: 20vh 0 0 0;
+}
+
+.content-container {
+    border: 1px solid black;
+    height: 60vh;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}

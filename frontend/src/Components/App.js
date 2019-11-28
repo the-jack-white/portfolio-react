@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //App Imports
+import './App.css';
 import Welcome from './Welcome/Welcome';
 
 const App = () => {
