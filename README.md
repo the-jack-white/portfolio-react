@@ -1,2 +1,4 @@
-# portfolio-react
+# Portfolio
+
+Portfolio written in ReactJS
  
