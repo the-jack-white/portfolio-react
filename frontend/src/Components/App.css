@@ -3,15 +3,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.main-container {
-    padding: 20vh 0 0 0;
+.particle-container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 98vw;
+    z-index: 0;
 }
 
 .content-container {
-    border: 1px solid black;
     height: 60vh;
     width: 70vw;
     margin: auto;
+    padding: 30vh 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
