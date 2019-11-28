@@ -1,8 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+//App Imports
+import Welcome from './Welcome/Welcome';
 
 const App = () => {
     return(
-        <h1>hello World</h1>
+        <BrowserRouter>
+            <div className="main-container">
+                <div className="content-container">
+                    <Switch>
+                        <Route exact path='/' component={Welcome} />
+                    </Switch>
+                </div>
+            </div>
+        </BrowserRouter>
     )
 }
 
