@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Welcome from './Welcome/Welcome';
 import Navigation from './Navigation/Navigation';
+import About from './About/About';
 
 class App extends Component {
 
@@ -37,6 +38,7 @@ class App extends Component {
                     <div className="content-container">
                         <Switch>
                             <Route exact path='/' component={Welcome} />
+                            <Route exact path='/about' component={About} />
                         </Switch>
                     </div>
                 </div>
