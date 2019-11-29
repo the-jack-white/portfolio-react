@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" bg="main-navbar" variant="light">
             <Navbar.Brand as={Link} to="/">
                 <img src="/img/faviconX2.png" alt="Logo" className="main-logo" style={{width: '40px'}}/>
             </Navbar.Brand>
