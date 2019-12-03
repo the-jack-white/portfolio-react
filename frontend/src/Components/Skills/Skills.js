@@ -1,8 +1,15 @@
 import React from 'react';
+import { Consumer } from '../Context';
 
 const Skills = () => {
     return (
-        <h1>Skills page</h1>
+        <Consumer>
+            { context => {
+                return (
+                    <h3>Hello World</h3>
+                )
+            }}
+        </Consumer>
     )
 }
 
