@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-import Skills from '../Skills/Skills.json';
+import Skills from './skills.json';
 
 const PortfolioContext = React.createContext();
 
 export class Provider extends Component {
 
     state = {
-        skills: Skills
+        skills: Skills.data
     }
 
     render() {
         return(
             <PortfolioContext.Provider value={{
-                skills: this.skills
+                data: {
+                    skills: this.state.skills
+                }
             }}>
                 {this.props.children}
             </PortfolioContext.Provider>

@@ -5,6 +5,7 @@ const Skills = () => {
     return (
         <Consumer>
             { context => {
+                console.log(context)
                 return (
                     <h3>Hello World</h3>
                 )
