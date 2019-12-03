@@ -8,6 +8,7 @@ import './App.css';
 import Welcome from './Welcome/Welcome';
 import Navigation from './Navigation/Navigation';
 import About from './About/About';
+import Skills from './Skills/Skills';
 
 class App extends Component {
 
@@ -38,7 +39,8 @@ class App extends Component {
                     <div className="content-container">
                         <Switch>
                             <Route exact path='/' component={Welcome} />
-                            <Route exact path='/about' component={About} />
+                            <Route path='/about' component={About} />
+                            <Route path='/skills' component={Skills} />
                         </Switch>
                     </div>
                 </div>
