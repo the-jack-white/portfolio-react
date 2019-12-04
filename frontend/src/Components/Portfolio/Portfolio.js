@@ -1,8 +1,15 @@
 import React from 'react';
+import { Consumer } from '../Context';
 
 const Portfolio = () => {
     return (
-        <h1>Portfolio Page</h1>
+        <Consumer>
+            { context => {
+                return (
+                    <h1>Hello World</h1>
+                )
+            }}
+        </Consumer>
     )
 }
 
