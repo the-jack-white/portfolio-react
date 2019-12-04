@@ -20,7 +20,7 @@ class About extends Component {
                 {this.state.matches && (
                     <div className="about-subcontainer">
                         <div className="about-item-sub">
-                            <h1>About</h1>
+                            
                             <p>
                                 Eye-poppingly prolific, full stack developer with a passion for metrics and information. I have an arsenal of tools and languages in my disposal to find solutions to all kinds of different problems. I worked on an average of 15 different projects for Biz2Click. The largest projects I've worked on is for HiDesign Group.
                             </p>
@@ -30,7 +30,7 @@ class About extends Component {
                 )}
                 {!this.state.matches && (
                     <div>
-                        <h1>About</h1>
+                        
                         <p>
                             Eye-poppingly prolific, full stack developer with a passion for metrics and information. I have an arsenal of tools and languages in my disposal to find solutions to all kinds of different problems. I worked on an average of 15 different projects for Biz2Click. The largest projects I've worked on is for HiDesign Group.
                         </p>

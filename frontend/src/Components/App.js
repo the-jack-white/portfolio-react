@@ -9,6 +9,7 @@ import Welcome from './Welcome/Welcome';
 import Navigation from './Navigation/Navigation';
 import About from './About/About';
 import Skills from './Skills/Skills';
+import Portfolio from './Portfolio/Portfolio';
 
 class App extends Component {
 
@@ -41,6 +42,7 @@ class App extends Component {
                             <Route exact path='/' component={Welcome} />
                             <Route path='/about' component={About} />
                             <Route path='/skills' component={Skills} />
+                            <Route exact path='/portfolio' component={Portfolio} />
                         </Switch>
                     </div>
                 </div>

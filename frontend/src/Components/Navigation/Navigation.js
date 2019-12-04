@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import './Navigation.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
@@ -13,10 +13,10 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link as={Link} to="/about">About</Nav.Link>
-                    <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
-                    <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                    <Nav.Link as={NavLink} to="/skills">Skills</Nav.Link>
+                    <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
+                        <NavDropdown.Item as={NavLink} to="/portfolio#biz2click">Biz2Click</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                         <NavDropdown.Divider />
