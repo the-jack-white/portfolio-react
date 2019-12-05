@@ -48,3 +48,5 @@ const biz2click = [
         url: 'https://bentleyassociates.co.uk/'
     },
 ]
+
+export default biz2click;
