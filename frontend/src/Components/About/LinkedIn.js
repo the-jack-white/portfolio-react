@@ -14,7 +14,6 @@ const LinkedIn = () => {
                 <div className="linkedin-content">
                     <h3>Jack White</h3>
                     <p>Web Developer at Biz2Click</p>
-                    {/* <button className="linkedin-button" href="https://www.linkedin.com/in/the-jack-white/" target="_blank">View Profile</button> */}
                     <Button variant="outline-primary" href="https://www.linkedin.com/in/the-jack-white/" target="_blank">View Profile</Button>
                 </div>
             </div>

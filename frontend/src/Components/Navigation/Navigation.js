@@ -25,6 +25,15 @@ const Navigation = () => {
                 </Nav>
                 <Nav>
                     <Nav.Link href="#memes">Dank memes</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/the-jack-white/" target="_blank">
+                        <img src="/img/linkedin-logo.png" alt="LinkedIn-Logo" className="main-logo" style={{width: '25px'}}/>
+                    </Nav.Link>
+                    <Nav.Link href="https://github.com/the-jack-white" target="_blank">
+                        <img src="/img/github-logo.svg" alt="GitHub-Logo" className="main-logo" style={{width: '25px'}}/>
+                    </Nav.Link>
+                    <Nav.Link href="/documents/JackWhiteCV_Dec2019.pdf" target="_blank" download>
+                        <img src="/img/downloadX2.png" alt="Download-Logo" className="main-logo" style={{width: '25px'}}/>
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
