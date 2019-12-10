@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://the-jack-white.github.io/portfolio-deploy",
+  "homepage": "https://the-jack-white.github.io/portfolio-deploy",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
