@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './About.css';
-import LinkedinBadge from './LinkedinBadge';
+// import LinkedinBadge from './LinkedinBadge';
 import LinkedIn from './LinkedIn';
 
 class About extends Component {

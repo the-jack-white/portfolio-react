@@ -5,9 +5,39 @@
     font-size: 18px;
 }
 
-.linkedin-badge {
+.linkedin-main {
+    margin: -20% 0 0 0;
+    z-index: 1;
+}
+
+.linkedin-sub {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+}
+
+.linkedin-picture {
+    border-radius: 50%;
+}
+
+.linkedin-content {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.linkedin-button {
+    margin: 10px 0;
+    padding: 7px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0);
+    color: #0073B1;
+    border: 1px solid #0073B1;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.linkedin-button:hover {
+    background-color: #0073B1;
+    color: #fff;
 }
