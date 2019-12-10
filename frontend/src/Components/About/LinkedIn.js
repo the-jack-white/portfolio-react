@@ -7,7 +7,7 @@ const LinkedIn = () => {
         <div className="linkedin-main">
             <div className="linkedin-sub">
                 <div className="linkedin-picture-container">
-                    <img className="linkedin-picture" src="/img/linkedinppcrop.jpeg" alt="Profile Picture" width="150px" />
+                    <img className="linkedin-picture" src="/img/linkedinppcrop.jpeg" alt="Profile" width="150px" />
                 </div>
             </div>
             <div className="linkedin-sub">
