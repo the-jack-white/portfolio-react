@@ -1,18 +1,21 @@
 import React from 'react';
 
+import { Button } from 'react-bootstrap';
+
 const LinkedIn = () => {
     return (
         <div className="linkedin-main">
             <div className="linkedin-sub">
                 <div className="linkedin-picture-container">
-                    <img className="linkedin-picture" src="https://via.placeholder.com/150" alt="Profile Picture" />
+                    <img className="linkedin-picture" src="/img/linkedinppcrop.jpeg" alt="Profile Picture" width="150px" />
                 </div>
             </div>
             <div className="linkedin-sub">
                 <div className="linkedin-content">
                     <h3>Jack White</h3>
                     <p>Web Developer at Biz2Click</p>
-                    <button className="linkedin-button" href="#">View Profile</button>
+                    {/* <button className="linkedin-button" href="https://www.linkedin.com/in/the-jack-white/" target="_blank">View Profile</button> */}
+                    <Button variant="outline-primary" href="https://www.linkedin.com/in/the-jack-white/" target="_blank">View Profile</Button>
                 </div>
             </div>
         </div>
