@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './About.css';
 import LinkedinBadge from './LinkedinBadge';
+import LinkedIn from './LinkedIn';
 
 class About extends Component {
 
@@ -25,7 +26,7 @@ class About extends Component {
                                 Eye-poppingly prolific, full stack developer with a passion for metrics and information. I have an arsenal of tools and languages in my disposal to find solutions to all kinds of different problems. I worked on an average of 15 different projects for Biz2Click. The largest projects I've worked on is for HiDesign Group.
                             </p>
                         </div>
-                        <LinkedinBadge />
+                        <LinkedIn />
                     </div>  
                 )}
                 {!this.state.matches && (
