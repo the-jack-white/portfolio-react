@@ -16,7 +16,7 @@ const Navigation = () => {
                     <Nav.Link as={NavLink} to="/myportfolio/about">About</Nav.Link>
                     <Nav.Link as={NavLink} to="/myportfolio/skills">Skills</Nav.Link>
                     <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-                        <NavDropdown.Item as={NavLink} to="/myportfolio/portfolio#biz2click">Biz2Click</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to="/myportfolio/portfolio">Biz2Click</NavDropdown.Item>
                         {/* <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                         <NavDropdown.Divider />
