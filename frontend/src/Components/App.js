@@ -39,10 +39,10 @@ class App extends Component {
                     <Navigation />
                     <div className="content-container">
                         <Switch>
-                            <Route exact path='/' component={Welcome} />
-                            <Route path='/about' component={About} />
-                            <Route path='/skills' component={Skills} />
-                            <Route exact path='/portfolio' component={Portfolio} />
+                            <Route exact path='/myportfolio' component={Welcome} />
+                            <Route path='/myportfolio/about' component={About} />
+                            <Route path='/myportfolio/skills' component={Skills} />
+                            <Route exact path='/myportfolio/portfolio' component={Portfolio} />
                         </Switch>
                     </div>
                 </div>
