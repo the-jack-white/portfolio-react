@@ -4,9 +4,11 @@
     grid-template-columns: 45% 45%;
     font-size: 18px;
 }
+.about-item-sub {
+    z-index: 2;
+}
 
 .linkedin-main {
-    margin: -20% 0 0 0;
     z-index: 1;
 }
 
