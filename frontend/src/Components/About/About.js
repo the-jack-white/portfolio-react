@@ -32,7 +32,7 @@ class About extends Component {
                     </div>  
                 )}
                 {!this.state.matches && (
-                    <div>
+                    <div className="skills-container">
                         <p>
                             My name is Jack White (and before you ask, I'm not related to the lead singer of The White Stripes).<br/><br/>I started my career as a GIS Technician, but soon changed my direction to Full Stack Development, more specifically, Front End Development.
                             <br/><br/>I can go on a whole tangent on why I made the decision, but in short, I found my passion. 
