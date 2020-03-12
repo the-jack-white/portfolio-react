@@ -65,12 +65,12 @@ const biz2click = [
         image: '/myportfolio/img/briisk.png',
         url: 'http://www.briisk.io/'
     },
-    // {
-    //     name: "Bentley Associates",
-    //     id: 13,
-    //     image: '/myportfolio/img/bentleyAs.png',
-    //     url: 'https://bentleyassociates.co.uk/'
-    // },
+    {
+        name: "Bentley Associates",
+        id: 13,
+        image: '/myportfolio/img/bentleyAs.png',
+        url: 'https://bentleyassociates.co.uk/'
+    },
 ]
 
 export default biz2click;
