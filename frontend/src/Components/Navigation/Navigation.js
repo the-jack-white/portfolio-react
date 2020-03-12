@@ -31,7 +31,7 @@ const Navigation = () => {
                     <Nav.Link href="https://github.com/the-jack-white" target="_blank">
                         <img src="/myportfolio/img/github-logo.svg" alt="GitHub-Logo" className="main-logo" style={{width: '25px'}}/>
                     </Nav.Link>
-                    <Nav.Link href="/documents/JackWhiteCV_Dec2019.pdf" target="_blank" download>
+                    <Nav.Link href="/documents/JackWhiteCV_Mar2020.pdf" target="_blank" download>
                         <img src="/myportfolio/img/downloadX2.png" alt="Download-Logo" className="main-logo" style={{width: '25px'}}/>
                     </Nav.Link>
                 </Nav>
